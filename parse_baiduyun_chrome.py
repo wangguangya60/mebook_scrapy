@@ -133,7 +133,7 @@ def doWork():
     #chrome_options.add_argument('--headless')
     chrome_options.add_argument('--disable-gpu')
     driver = webdriver.Chrome(options=chrome_options)
-    login(driver,"harland6","WGY123456096")
+    login(driver,"XXX","XXXX")
     
     handle_suc = open('success.csv', 'w+')
     handle_fail = open('fail.csv', 'w+')
